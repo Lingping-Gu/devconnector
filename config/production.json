@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://LingpingGu:glp19990906@cluster0.vonnbvd.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "mySecretToken",
+    "githubClientId": "ae2949ab569635e8db62",
+    "githubSecret": "66da7311339a59f078ba586ffe4aa325ce7ff44b"
+}
