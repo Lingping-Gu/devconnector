@@ -4,15 +4,10 @@
 
 This is a small social network app that includes authentication, profiles and forum posts.
 
-### Install server dependencies
+### Install server and client dependencies
 
 ```bash
 npm install
-```
-
-### Install client dependencies
-
-```bash
 cd client
 npm install
 ```
