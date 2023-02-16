@@ -30,9 +30,9 @@ cd client
 npm run build
 ```
 
-### Test production before deploy
+### Local Running
 
-After running a build in the client 👆, cd into the root of the project.  
+After running a build in the client, cd into the root of the project.  
 And run...
 
 Linux/Unix
