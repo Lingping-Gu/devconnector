@@ -4,14 +4,14 @@
   "description": "Social network for developers",
   "main": "server.js",
   "engines": {
-    "node": "16.x"
+    "node": "16.13.0"
   },
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "postinstall": "cd client && npm install && npm run build"
   },
   "author": "Lingping Gu",
   "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
-    "node": "^16.0.0",
+    "node": "^16.13.0",
     "nodemon": "^2.0.20"
   },
   "proxy": "http://localhost:5000"
