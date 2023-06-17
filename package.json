@@ -11,7 +11,7 @@
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "render-postbuild": "NPM_CONFIG_PRODUCTION=false NODE_OPTIONS="--openssl-legacy-provider" npm install --prefix client && npm run build --prefix client",
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "build": "npm i && cd client && npm i && npm run build"
   },
   "author": "Lingping Gu",
